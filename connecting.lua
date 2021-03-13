@@ -226,6 +226,7 @@ AddEventHandler("playerConnecting", function(name, setKickReason, deferrals)
 
                 for i = 1, #points do
                     if points[i] > most_points then
+                        most_points = points[i]
                         best_result = i
                     end
                 end
